@@ -1,0 +1,22 @@
+.btn,
+a.btn {
+  display: inline-block;
+  background: var(--white);
+  padding: 8px;
+  min-width: 185px;
+  height: 40px;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--black);
+
+  &--small {
+    min-width: unset;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

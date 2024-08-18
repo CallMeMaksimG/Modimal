@@ -1,0 +1,14 @@
+.account {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  a {
+    display: inline-block;
+    transition: all .2s ease-in-out;
+  }
+
+  a:hover {
+    background: var(--neutral-grayededed);
+  }
+}
