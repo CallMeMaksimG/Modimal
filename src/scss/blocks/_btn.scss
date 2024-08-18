@@ -13,7 +13,7 @@ a.btn {
   text-transform: capitalize;
   text-align: center;
   color: var(--black);
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   &--small {
     min-width: unset;
@@ -32,9 +32,33 @@ a.btn {
 
   &--mobile-white {
     @include mobile {
-        width: 100%;
-        text-align: left;
-        padding: 8px 16px;
+      width: 100%;
+      text-align: left;
+      padding: 8px 16px;
     }
+  }
+}
+
+a.btn-outline,
+.btn-outline {
+  border: 1px solid var(--primary-primary-600);
+  padding: 16px;
+  height: 40px;
+
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--primary-primary-600)!important;
+
+  &:hover {
+    color: var(--primary-primary-700);
   }
 }

@@ -1,4 +1,6 @@
 import Swiper from 'swiper/bundle';
+import mobileNav from './modules/mobile-nav.js';
+import accordion from './modules/accordion.js';
 
 import 'swiper/css/bundle';
 
@@ -20,5 +22,6 @@ const swiper = new Swiper('.swiper', {
 });
 
 // Мобильная навигация
-import mobileNav from './modules/mobile-nav.js';
 mobileNav();
+
+accordion();
