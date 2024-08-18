@@ -6,6 +6,10 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  @include mobile {
+      padding: 4px 0 8px;
+  }
 }
 
 .header__logo {
@@ -13,6 +17,12 @@
 }
 
 .header__nav {
+
+  margin-left: auto;
+
+  @include mobile {
+      display: none;
+  }
 }
 .nav {
 	
@@ -20,6 +30,21 @@
 .nav__list {
 }
 .header__acount {
+
+  &--first {
+    margin-left: auto;
+    margin-right: 24px;
+
+    @include tablet {
+        margin-right: 12px;
+    }
+
+    @include mobile {
+        order: -1;
+        margin-left: unset;
+        margin-right: unset;
+    }
+  }
 }
 .account {
 }

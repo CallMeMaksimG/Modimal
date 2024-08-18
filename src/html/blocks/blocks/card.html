@@ -20,13 +20,12 @@
       <div class="card__cols">
         <div class="card__desc">@@desc</div>
         <div class="card__price">$@@price</div>
+      </div>
+      <div class="card__colors">
+        @@for(var i = 0; i < context.colors.length; i++) {
+        <div class="color color--`+context.colors[i]+`"></div>
 
-        <div class="card__colors">
-          @@for(var i = 0; i < context.colors.length; i++) {
-          <div class="color color--`+context.colors[i]+`"></div>
-
-          }
-        </div>
+        }
       </div>
     </div>
   </article>

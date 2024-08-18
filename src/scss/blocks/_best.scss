@@ -9,3 +9,9 @@
 
 .best__cards {
 }
+
+.best__link {
+  @include mobile {
+      display: none;
+  }
+}

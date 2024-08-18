@@ -32,8 +32,15 @@
 						</ul>
 					</nav>
 
-					<div class="header__acount">
+					<div class="header__acount--first">
 						<ul class="account">
+							<li class="account__menu">
+								<a href="#!">
+									<svg class="icon icon--menu">
+										<use href="./img/svgsprite/sprite.symbol.svg#menu"></use>
+									</svg>
+								</a>
+							</li>
 							<li>
 								<a href="#!">
 									<svg class="icon icon--search">
@@ -41,13 +48,17 @@
 									</svg>
 								</a>
 							</li>
-							<li>
+							<li class="account__person">
 								<a href="#!">
 									<svg class="icon icon--person">
 										<use href="./img/svgsprite/sprite.symbol.svg#person"></use>
 									</svg>
 								</a>
 							</li>
+						</ul>
+					</div>
+					<div class="header__acount">
+						<ul class="account">
 							<li>
 								<a href="#!">
 									<svg class="icon icon--favorite">
@@ -122,14 +133,13 @@
 											<div class="card__cols">
 												<div class="card__desc">turn it&#160;up&#160;pants</div>
 												<div class="card__price">$180</div>
+											</div>
+											<div class="card__colors">
+												<div class="color color--black"></div>
 
-												<div class="card__colors">
-													<div class="color color--black"></div>
+												<div class="color color--blue"></div>
 
-													<div class="color color--blue"></div>
-
-													<div class="color color--green"></div>
-												</div>
+												<div class="color color--green"></div>
 											</div>
 										</div>
 									</article>
@@ -156,14 +166,13 @@
 											<div class="card__cols">
 												<div class="card__desc">Make A&#160;Splash</div>
 												<div class="card__price">$120</div>
+											</div>
+											<div class="card__colors">
+												<div class="color color--olive"></div>
 
-												<div class="card__colors">
-													<div class="color color--olive"></div>
+												<div class="color color--navy"></div>
 
-													<div class="color color--navy"></div>
-
-													<div class="color color--black"></div>
-												</div>
+												<div class="color color--black"></div>
 											</div>
 										</div>
 									</article>
@@ -190,14 +199,13 @@
 											<div class="card__cols">
 												<div class="card__desc">Anywhere Dress</div>
 												<div class="card__price">$210</div>
+											</div>
+											<div class="card__colors">
+												<div class="color color--pink"></div>
 
-												<div class="card__colors">
-													<div class="color color--pink"></div>
+												<div class="color color--olive"></div>
 
-													<div class="color color--olive"></div>
-
-													<div class="color color--green"></div>
-												</div>
+												<div class="color color--green"></div>
 											</div>
 										</div>
 									</article>
@@ -224,14 +232,13 @@
 											<div class="card__cols">
 												<div class="card__desc">Anywhere Dress</div>
 												<div class="card__price">$210</div>
+											</div>
+											<div class="card__colors">
+												<div class="color color--white"></div>
 
-												<div class="card__colors">
-													<div class="color color--white"></div>
+												<div class="color color--black"></div>
 
-													<div class="color color--black"></div>
-
-													<div class="color color--green"></div>
-												</div>
+												<div class="color color--green"></div>
 											</div>
 										</div>
 									</article>
@@ -258,14 +265,13 @@
 											<div class="card__cols">
 												<div class="card__desc">Anywhere Dress</div>
 												<div class="card__price">$120</div>
+											</div>
+											<div class="card__colors">
+												<div class="color color--blue"></div>
 
-												<div class="card__colors">
-													<div class="color color--blue"></div>
+												<div class="color color--white"></div>
 
-													<div class="color color--white"></div>
-
-													<div class="color color--green"></div>
-												</div>
+												<div class="color color--green"></div>
 											</div>
 										</div>
 									</article>
@@ -292,14 +298,13 @@
 											<div class="card__cols">
 												<div class="card__desc">Anywhere Dress</div>
 												<div class="card__price">$210</div>
+											</div>
+											<div class="card__colors">
+												<div class="color color--white"></div>
 
-												<div class="card__colors">
-													<div class="color color--white"></div>
+												<div class="color color--olive"></div>
 
-													<div class="color color--olive"></div>
-
-													<div class="color color--green"></div>
-												</div>
+												<div class="color color--green"></div>
 											</div>
 										</div>
 									</article>
@@ -324,7 +329,7 @@
 									<img class="card-collection__img" src="./img/collection/collection-01.jpg" alt="Blouses" />
 								</picture>
 								<div class="card-collecion__link">
-									<a href="#!" class="btn">Blouses</a>
+									<a href="#!" class="btn btn--mobile-white">Blouses</a>
 								</div>
 							</article>
 							<article class="card-collection">
@@ -334,7 +339,7 @@
 									<img class="card-collection__img" src="./img/collection/collection-02.jpg" alt="Dresses" />
 								</picture>
 								<div class="card-collecion__link">
-									<a href="#!" class="btn">Dresses</a>
+									<a href="#!" class="btn btn--mobile-white">Dresses</a>
 								</div>
 							</article>
 						</div>
@@ -346,7 +351,7 @@
 									<img class="card-collection__img" src="./img/collection/collection-03.jpg" alt="Pants" />
 								</picture>
 								<div class="card-collecion__link">
-									<a href="#!" class="btn">Pants</a>
+									<a href="#!" class="btn btn--mobile-white">Pants</a>
 								</div>
 							</article>
 							<article class="card-collection">
@@ -356,7 +361,7 @@
 									<img class="card-collection__img" src="./img/collection/collection-04.jpg" alt="Outwear" />
 								</picture>
 								<div class="card-collecion__link">
-									<a href="#!" class="btn">Outwear</a>
+									<a href="#!" class="btn btn--mobile-white">Outwear</a>
 								</div>
 							</article>
 						</div>

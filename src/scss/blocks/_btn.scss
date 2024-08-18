@@ -13,10 +13,28 @@ a.btn {
   text-transform: capitalize;
   text-align: center;
   color: var(--black);
+  transition: all .2s ease-in-out;
 
   &--small {
     min-width: unset;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  &:hover {
+    background-color: var(--neutral-grayededed);
+  }
+
+  @include mobile {
+    padding: 8px 9px;
+    min-width: unset;
+  }
+
+  &--mobile-white {
+    @include mobile {
+        width: 100%;
+        text-align: left;
+        padding: 8px 16px;
+    }
   }
 }
