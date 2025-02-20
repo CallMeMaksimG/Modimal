@@ -4,7 +4,7 @@ function accordion() {
   btns.forEach(function(btn) {
     btn.addEventListener('click', () => {
       const content = btn.nextElementSibling;
-      console.log(content)
+      console.log('hello world');
       const isOpen = btn.classList.toggle('mobile-links__parent-btn--open');
 
       if (isOpen) {
